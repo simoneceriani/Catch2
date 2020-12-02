@@ -233,6 +233,7 @@ add_library(Catch2 STATIC
   ${BENCHMARK_HEADERS}
   ${BENCHMARK_SOURCES}
 )
+set_target_properties(Catch2  PROPERTIES DEBUG_POSTFIX "d")
 add_library(Catch2::Catch2 ALIAS Catch2)
 
 if (ANDROID)
@@ -274,6 +275,7 @@ target_include_directories(Catch2
 add_library(Catch2WithMain STATIC
     ${SOURCES_DIR}/internal/catch_main.cpp
 )
+set_target_properties(Catch2WithMain  PROPERTIES DEBUG_POSTFIX "d")
 add_library(Catch2::Catch2WithMain ALIAS Catch2WithMain)
 target_link_libraries(Catch2WithMain PUBLIC Catch2)
 set_target_properties(Catch2WithMain
