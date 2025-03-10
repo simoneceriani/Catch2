@@ -3,6 +3,7 @@
   "include": [
     "${sourceParentDir}/csCMake/presets/base-msvc2022-x64.json",
     "${sourceParentDir}/csCMake/presets/base-msvc2022-x64-LLVM.json",
-    "${sourceParentDir}/csCMake/presets/base-linux-ninja.json"
+    "${sourceParentDir}/csCMake/presets/base-linux-ninja.json",
+    "${sourceParentDir}/csCMake/presets/base-linux-ninja-multi-config.json"
   ]
 }

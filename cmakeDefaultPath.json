@@ -16,6 +16,10 @@
     {
       "name": "cmake-path-linux-ninja-release",
       "hidden": true
+    },
+    {
+      "name": "cmake-path-linux-ninja-multi-config",
+      "hidden": true
     }
   ]
 }
