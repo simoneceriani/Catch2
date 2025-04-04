@@ -1,8 +1,8 @@
 {
   "version":  10,
   "include": [
-    "${sourceParentDir}/csCMake/presets/base-msvc2022-x64.json",
-    "${sourceParentDir}/csCMake/presets/base-msvc2022-x64-LLVM.json",
+    "${sourceParentDir}/csCMake/presets/msvc2022-x64-workflow-debug-release.json",
+    "${sourceParentDir}/csCMake/presets/msvc2022-x64-LLVM-workflow-debug-release.json",
     "${sourceParentDir}/csCMake/presets/base-linux-ninja.json",
     "${sourceParentDir}/csCMake/presets/base-linux-ninja-multi-config.json"
   ]
