@@ -3,7 +3,7 @@
   "include": [
     "${sourceParentDir}/csCMake/presets/msvc2022-x64-workflow-debug-release.json",
     "${sourceParentDir}/csCMake/presets/msvc2022-x64-LLVM-workflow-debug-release.json",
-    "${sourceParentDir}/csCMake/presets/base-linux-ninja.json",
-    "${sourceParentDir}/csCMake/presets/base-linux-ninja-multi-config.json"
+    "${sourceParentDir}/csCMake/presets/linux-ninja-workflow-debug-release.json",
+    "${sourceParentDir}/csCMake/presets/linux-ninja-multi-config-workflow-debug-release.json"
   ]
 }

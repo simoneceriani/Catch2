@@ -10,11 +10,7 @@
       "hidden": true
     },
     {
-      "name": "cmake-path-linux-ninja-debug",
-      "hidden": true
-    },
-    {
-      "name": "cmake-path-linux-ninja-release",
+      "name": "cmake-path-linux-ninja",
       "hidden": true
     },
     {
